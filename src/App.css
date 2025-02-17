@@ -11,9 +11,17 @@ body {
 
 /* Title */
 .title {
-  text-align: center;
+  text-align: left;
   color: #333;
   font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Company title */
+.company-title {
+  text-align: center;
+  color: #333;
+  font-size: 3rem; /* Aumenta el tamaño del título */
   margin-bottom: 20px;
 }
 
