@@ -53,7 +53,7 @@ function App() {
 
       <div className="extra-links" style={{ display: "flex", justifyContent: "space-between", marginTop: "10px", fontSize: "0.9em" }}>
         <p style={{ cursor: "pointer", color: "#555", marginLeft: "10px" }}><Link to="/register">Crear nuevo usuario</Link></p>
-        <p style={{ cursor: "pointer", color: "#555", marginRight: "10px" }}>Recuperar contraseña</p>
+        <p style={{ cursor: "pointer", color: "#555", marginRight: "10px" }}><Link to="/password">Recuperar contraseña</Link></p>
       </div>
     </>
   );
